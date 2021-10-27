@@ -20,6 +20,7 @@ def main():
     )
     print("get_workspace:")
     print(aml_workspace)
+    print(aml_workspace)
 
     # Get Azure machine learning cluster
     aml_compute = get_compute(aml_workspace, e.compute_name, e.vm_size)
