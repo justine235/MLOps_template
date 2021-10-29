@@ -45,7 +45,7 @@ def main():
         resource_group = os.environ.get("RESOURCE_GROUP")
         subscription_id = os.environ.get("SUBSCRIPTION_ID")
         # run_id useful to query previous runs
-        run_id = "bd184a18-2ac8-4951-8e78-e290bef3b012"
+        run_id = "b397f611-bf3d-495b-b3cb-adfa8f385be1"
         aml_workspace = Workspace.get(
             name=workspace_name,
             subscription_id=subscription_id,
@@ -70,7 +70,7 @@ def main():
         "--model_name",
         type=str,
         help="Name of the Model",
-        default="diabetes_model.pkl",
+        default="diabetes_regression_model.pkl",
     )
 
     parser.add_argument(
