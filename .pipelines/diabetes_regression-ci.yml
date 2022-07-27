@@ -12,10 +12,10 @@ trigger:
     - master
   paths:
     include:
-    - diabetes_regression/
-    - ml_service/pipelines/diabetes_regression_build_train_pipeline.py
-    - ml_service/pipelines/diabetes_regression_build_train_pipeline_with_r.py
-    - ml_service/pipelines/diabetes_regression_build_train_pipeline_with_r_on_dbricks.py
+    - Demo/diabetes_regression/
+    - Demo/ml_service/pipelines/diabetes_regression_build_train_pipeline.py
+    - Demo/ml_service/pipelines/diabetes_regression_build_train_pipeline_with_r.py
+    - Demo/ml_service/pipelines/diabetes_regression_build_train_pipeline_with_r_on_dbricks.py
 
 variables:
 - template: diabetes_regression-variables-template.yml
